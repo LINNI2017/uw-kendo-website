@@ -17,16 +17,19 @@ const HomePage = () => {
             height: "100vh"
          }}
       >
-         <NavBar transparent />
+         <NavBar />
          <Container fluid className="home-text-layout">
             <Row>
                <Col sm={1} />
                <Col sm={10}>
-                  <p className="logo-title-font-white">Kendo Club</p>
+                  <p className="logo-title-font-white">Kendo Club @ UW</p>
                   <div className="home-join-layout">
                      <p className="home-join-font">
                         Come join the Kendo Club at the University of Washington today!
                      </p>
+                     <p className="home-times-font">
+                        Practices at 7:00-8:00 Wednesdays and Fridays over Zoom
+                    </p>
                      <div id="home-control">
                         <Button
                            id="home-join-button"

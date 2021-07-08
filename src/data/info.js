@@ -2,30 +2,19 @@ import React from "react"
 
 export const JOIN_MAIL_URL = "http://mailman13.u.washington.edu/mailman/listinfo/uwkendo"
 
+export const JOIN_FB_URL = "https://www.facebook.com/uwkendoclub/"
 export const annList = [
    {
+       title: "Joint Practice with UBC",
+       content: "There'll be a joint practice with the University of British Columbia on 1/15",
+       img: "ann/zoom.png",
+       date: "2021-01-13"
+   },
+   {
       title: "Practice",
-      content: "2022 Winter Practice is weekly.",
+      content: "2021 Winter Practice is weekly.",
       img: "ann/steveston2020 masa.jpg",
       date: "2021-12-01"
-   },
-   {
-      title: "Practice",
-      content: "2021 Autumn Practice is weekly.",
-      img: "ann/zoom.png",
-      date: "2021-09-01"
-   },
-   {
-      title: "COVID-19 Update",
-      content: "2021 Spring Practice is on zoom weekly.",
-      img: "ann/uw2019warmups.jpg",
-      date: "2021-04-01"
-   },
-   {
-      title: "Zoom Practice",
-      content: "2021 Winter Practice is on zoom weekly.",
-      img: "ann/sakura-uw.jpg",
-      date: "2020-12-01"
    },
    {
       title: "Zoom Practice",
@@ -45,7 +34,7 @@ export const clubInfo = {
    title: "The Club",
    content: `The Kendo Club at University of Washington (UW) is a sports club sponsored by the Department of Recreational Sports Programs. We're open to currently enrolled UW students and faculty/staff members that have purchased a quarterly or annual IMA Membership Card.
    \n
-   We are recognized member dojo of the Pacific Northwest Kendo Federation (PNKF) and the All United States Kendo Federation (AUSKF). Members of the club are eligible to become members in good standing of both federations and are entitled to all privileges of the same.`,
+   We are a member dojo of the Pacific Northwest Kendo Federation (PNKF) and the All United States Kendo Federation (AUSKF). Members of the club are eligible to become members in good standing of both federations and are entitled to all privileges of the same.`,
    img: "gallery/2019 Highline/highline2019gang.jpg"
 }
 
@@ -241,22 +230,22 @@ export const warmUpList = [
    },
    {
       abstract: "Jougeburi x20",
-      detail: "1/4 Suburi",
+      detail: "",
       image: "warmup/the-jougeburi.gif"
    },
    {
       abstract: "Men-uchi x30",
-      detail: "2/4 Suburi",
+      detail: "",
       image: "warmup/the-menuchi.gif"
    },
    {
       abstract: "Sayu-men x20",
-      detail: "3/4 Suburi",
+      detail: "",
       image: "warmup/the-sayumen.gif"
    },
    {
       abstract: "Haya-suburi 5x20",
-      detail: "4/4 Suburi",
+      detail: "",
       image: "warmup/the-hayasuburi.gif"
    }
 ]
